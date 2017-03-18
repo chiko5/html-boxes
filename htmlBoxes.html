@@ -1,0 +1,139 @@
+<html >
+	<head>
+		<title>HTML</title>
+		<style type="text/css">
+		body {
+			margin:0;
+		}
+			#header {
+				width: 100%;
+				height: 180px;
+				background-color: gray;
+			}
+			#header ul {
+				background-color: green;
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				overflow:hidden;
+			}
+			li {
+				float: left;
+			}
+
+			li a, .hover{
+				padding: 14px 16px;
+				color: #fff;
+				text-align: center;
+				display: inline-block;
+				text-decoration: none;
+			}
+			li a:hover {
+				background-color: #fff;
+				color: green;
+			}
+			.content {
+				display: none;
+				position: absolute;
+				background-color: green;
+				min-width: 160px;
+			}
+			.content a {
+				display: block;
+				text-align: left;
+				color: black;
+			}
+			.content a:hover {
+				background-color: #f1f1f1;
+			}
+			.services:hover .content {
+				display: block;
+			}
+
+			#leftSide {
+				width: 15%;
+				float: left;
+				background-color: #ccc;
+				height: 1500px;
+			}
+			#centerSide {
+				width: 70%;
+				float: left;
+				background-color: #e6e6e6;
+				height: 1500px;
+			}
+			#rightSide {
+				width: 15%;
+				height: 1500px;
+				background-color: #ccc;
+				float: left;
+			}
+			#footer {
+				width: 100%;
+				height:50px;
+				background-color: gray;
+				float: left;
+			}
+
+			.axtaris{
+				float: right;
+				margin-right: 60px;
+				margin-top: 15px;
+			
+
+			}
+			.button{
+				
+				
+
+			}
+			.button img{
+				width: 30px;
+				float: right;
+				position: absolute;
+				margin-left: 950px;
+				margin-top: 15px;
+
+
+			}
+
+			.axtaris input{
+				height: 30px;
+				width: 200px;
+				position: relative;
+			}
+		
+
+
+
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul>
+				<li><a href="#">Ana səhifə</a></li>
+				<li><a href="#">Haqqımızda</a></li>
+			<li class="services"><a href="#" class="hover">Xidmətlər</a>
+					<div class="content">
+							<a href="">Xidmət 1</a>
+							<a href="">Xidmət 2</a>
+							<a href="">Xidmət 3</a>
+					</div>
+				</li>
+				<div class="axtaris">
+					<form>
+						<input  type="text" name="">
+					</form>
+
+				</div>
+				<div class="button">
+				<img src="axtaris.png">
+				</div>
+			</ul>
+		</div>
+		<div id="leftSide">Left side</div>
+		<div id="centerSide">center side</div>
+		<div id="rightSide">right side</div>
+		<div id="footer">footer</div>
+	</body>
+</html>
